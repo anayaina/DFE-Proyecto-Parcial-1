@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portafolio - Paulina Anaya</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/css/index.css">
+    <link rel="stylesheet" href="./assets/css/media.css" />
+  </head>
+
+  <body>
+    <!-- Javascript -->
+    <script src="./assets/js/main.js"></script>
+
+    <!-- Navbar -->
+    <nav id="navbar">
+      <div class="logo">
+        <a href="index.html" class="logo-toggle">
+          <img src="./assets/img/Memoji/memoji-face-2.png" alt="Logo Index">
+        </a>
+      </div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#sobremi">Sobre Mi</a></li>
+          <li><a href="#proyectos">Proyectos</a></li>
+          <li><a href="#habilidades">Habilidades</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">
+        <a href="index.html" class="logo-toggle">
+          <img src="./assets/img/Memoji/memoji-face-2.png" alt="Logo Index">
+        </a>
+      </div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#sobremi" onclick="toggleMenu()">Sobre Mi</a></li>
+          <li><a href="#proyectos" onclick="toggleMenu()">Proyectos</a></li>
+          <li><a href="#habilidades" onclick="toggleMenu()">Habilidades</a></li>
+          <li><a href="#contacto" onclick="toggleMenu()">Contacto</a></li>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Perfil -->
+    <section id="perfil">
+      <p class="section__text__p1">Hola, yo soy</p>
+      <h1 class="title-perfil">Paulina Anaya</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img src="./assets/img/Mis_Fotos/yo-circulo.png" alt="Profile picture"
+            class="perfil-pic" />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img src="./assets/img/Icons/experience.png"
+                alt="Experience icon" class="icon" />
+              <h3>Experiencia</h3>
+              <p> 6 meses <br />Fullstack Developer</p>
+            </div>
+            <div class="details-container">
+              <img src="./assets/img/Icons/education.png"
+                alt="Education icon" class="icon" />
+              <h3>Educación</h3>
+              <p>Ing. en Sistemas <br />de Información</p>
+            </div>
+          </div>
+          <div class="text-container-perfil">
+            <p>
+              Mi pasión por el diseño y la resolución de problemas me
+              impulsa a seguir aprendiendo y desarrollando nuevas habilidades
+              para
+              enfrentar los desafíos del mundo. Estoy emocionada por las
+              oportunidades
+              futuras que me permitirán aplicar mi creatividad y
+              conocimientos para crear soluciones impactantes.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sobre Mi-->
+    <section id="sobremi">
+      <div class="section-container-sobremi">
+        <h1 class="title-sobremi">Sobre Mi</h1>
+        <div class="section-container">
+          <div class="text-sobremi">
+            <h2 class="title-text-sobremi">Biografía</h2>
+            <hr />
+            <div class="text-container-sobremi">
+              <p>
+                Soy Paulina Anaya, una estudiante de 22 años, nacida en la
+                ciudad de Hermosillo, Sonora. Actualmente me encuentro en mi
+                último semestre de la carrera de Ingeniería en Sistemas de
+                Información en la
+                Universidad de Sonora. Recientemente aprobé el examen CENEVAL
+                para titulación y actualmente me encuentro realizando mis
+                prácticas profesionales en la CFE, donde estoy trabajando en un
+                proyecto
+                de desarrollo de software que consta del rediseño del Sistema de
+                Inventario
+                de IPs de Transmisión Noroeste.
+              </p>
+              <p>
+                Mis hobbies son una parte esencial de mi vida, brindándome un
+                equilibrio perfecto entre la diversión y el bienestar. Me gusta
+                sumergirme en la intriga y el misterio de las series policiacas,
+                desentrañando cada enigma junto a los detectives en la pantalla.
+                En el mundo del fitness, la natación, CrossFit y spinning
+                son mis pasiones, desafiándome constantemente a superar mis
+                límites y mantenerme en forma. La música es mi compañera
+                constante; escuchar mis 30 canciones de siempre me inspira y
+                relaja. Por otro lado, los videojuegos son mi forma de
+                aventurarme y desatar mi creatividad.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="proyectos">
+      <h1 class="title-proyectos">Proyectos</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/img/Experiencia/Awason.png"
+                alt="Project 1"
+                class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project-title">Awason</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/aydin-due/awason'">
+                Github
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/img/Experiencia/Arioli.png"
+                alt="Project 2"
+                class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project-title">Arioli</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/aydin-due/arioli-deluxe'">
+                Github
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/img/Experiencia/Comic.png"
+                alt="Project 3"
+                class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project-title">Comics</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://gitlab.com/liquidberny/comic'">
+                Gitlab
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="contact-info-upper-container">
+          <div class="contact-info-container">
+            <img
+              src="./assets/img/Icons/link.png"
+              alt="next page icon"
+              class="icon exp-icon exp-icon" />
+            <p><a href="https://github.com/anayaina">Ver mas en mi perfil de
+                Github</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Habilidades -->
+    <section id="habilidades">
+      <h1 class="title-habilidades">Habilidades</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/img/Icons/good.png"
+                  alt="Experience icon"
+                  class="icon" />
+                <div>
+                  <h3>HTML</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/img/Icons/good.png"
+                  alt="Experience icon"
+                  class="icon" />
+                <div>
+                  <h3>CSS</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/img/Icons/good.png"
+                  alt="Experience icon"
+                  class="icon" />
+                <div>
+                  <h3>JavaScript</h3>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Backend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/img/Icons/good.png"
+                  alt="Experience icon"
+                  class="icon" />
+                <div>
+                  <h3>Python</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/img/Icons/good.png"
+                  alt="Experience icon"
+                  class="icon" />
+                <div>
+                  <h3>C#</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/img/Icons/good.png"
+                  alt="Experience icon"
+                  class="icon" />
+                <div>
+                  <h3>SQL</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/img/Icons/good.png"
+                  alt="Experience icon"
+                  class="icon" />
+                <div>
+                  <h3>.Net</h3>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <seccion id="contacto">
+      <footer>
+        <h1 class="title-contacto">Contacto</h1>
+        <section id="socialmedia">
+          <div class="section__text">
+            <p class="section__text__p2">Sigueme en mis</p>
+            <h1 class="title-socialmedia">Redes Sociales</h1>
+            <div id="socials-container">
+              <img
+                src="./assets/img/Icons/linkedin.png"
+                alt="My LinkedIn profile"
+                class="icon"
+                onclick="location.href='https://linkedin.com/'" />
+              <img
+                src="./assets/img/Icons/github.png"
+                alt="My Github profile"
+                class="icon"
+                onclick="location.href='https://github.com/'" />
+            </div>
+            <div class="contact-info-upper-container">
+              <div class="contact-info-container">
+                <img
+                  src="./assets/img/Icons/mail.png"
+                  alt="Email icon"
+                  class="icon contact-icon email-icon" />
+                <p><a href="mailto:anaya.anap@gmail.com">anaya.anap@gmail.com</a></p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <p>Copyright &#169; 2023 Paulina Anaya</p>
+      </footer>
+    </seccion>
+
+    <!-- Btn js arriba -->
+    <button id="btn-ir-arriba">
+      <img src="./assets/img/Icons/up.png" />
+    </button>
+
+  </body>
+</html>
