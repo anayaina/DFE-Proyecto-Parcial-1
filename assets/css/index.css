@@ -384,13 +384,6 @@ hr {
   position: relative;
 }
 
-.details-container {
-  padding: 1.5rem;
-  flex: 1;
-  border-radius: 2rem;
-  text-align: center;
-}
-
 .title-proyectos {
   font-size: 5rem;
   text-align: center;
@@ -399,8 +392,8 @@ hr {
 
 .project-img {
   border-radius: 2rem;
-  width: 17rem;
-  height: 20rem;
+  width: 70%;
+  height: 70%;
 }
 
 .project-title {
@@ -413,8 +406,8 @@ hr {
   border-color: rgb(163, 163, 163);
 }
 
-/* Experiencia */
-#experiencia {
+/* Habilidades */
+#habilidades {
   position: relative;
 }
 
@@ -424,14 +417,14 @@ hr {
   color: var(--color-secundario);
 }
 
-.experience-sub-title {
+.habilidades-sub-title {
   color: rgb(85, 85, 85);
   font-weight: 600;
   font-size: 1.75rem;
   margin-bottom: 2rem;
 }
 
-.experience-details-container {
+.habilidades-details-container {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -465,7 +458,7 @@ article .icon {
   height: 2.5rem;
 }
 
-/* Contact Form */
+/* Contacto */
 #contacto {
   position: relative;
 }
@@ -498,8 +491,9 @@ article .icon {
 }
 
 .section__text__p2 {
-  font-size: 1.75rem;
+  font-size: 1.25rem;
   margin-bottom: 1rem;
+  padding-top: 5rem;
 }
 
 .title {
